@@ -4,7 +4,7 @@
 
 [rewrite_local]
  
-^https?:\/\/nymfapp\.com\/api\/(photos|posts|compose|stories) script-response-body https://raw.githubusercontent.com/Rivan46/Script/main/nyfm.js
+^https?:\/\/nymfapp\.com\/api\/(photos|posts|compose|stories) url script-response-body https://raw.githubusercontent.com/Rivan46/Script/main/nyfm.js
 
 [mitm]
  
